@@ -1,0 +1,37 @@
+{
+  "name": "mygroupdev/yii2-category",
+  "description": "Расширение для гибкой работы с категориями",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "category"
+  ],
+  "license": "MIT",
+  "repositories":[
+    {
+      "type": "git",
+      "url": "https://github.com/mygroupdev/yii2-category.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "DDmytruk",
+      "email": "my.group.dev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "extra": {
+    "bootstrap": "mygroupdev\\category\\Bootstrap"
+  },
+  "autoload": {
+    "psr-4": {
+      "mygroupdev\\category\\": ""
+    }
+  }
+}
